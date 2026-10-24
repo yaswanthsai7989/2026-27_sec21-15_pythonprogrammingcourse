@@ -1,0 +1,10 @@
+#Write a python program to demonstrate string methods (upper, lower, strip, split, join, replace, find)
+str1 = "  Hello, World!  "
+print("Original string:", str1)
+print("Uppercase:", str1.upper())
+print("Lowercase:", str1.lower())
+print("Stripped:", str1.strip())
+print("Split:", str1.split(","))
+print("Joined:", "-".join(str1.split()))
+print("Replaced:", str1.replace("World", "Python"))
+print("Found:", str1.find("World"))
