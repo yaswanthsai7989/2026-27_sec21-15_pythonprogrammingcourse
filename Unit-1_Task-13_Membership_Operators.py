@@ -1,3 +1,4 @@
+#Write a python program to demonstrate membership operators (in, not in)
 numbers = [10, 20, 30, 40, 50]
 
 print("20 in numbers:", 20 in numbers)
