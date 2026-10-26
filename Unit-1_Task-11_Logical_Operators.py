@@ -1,3 +1,4 @@
+#Write a python program to demonstrate logical operators (and, or, not)
 a = True
 b = False
 
