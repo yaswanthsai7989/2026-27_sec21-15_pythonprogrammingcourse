@@ -1,3 +1,4 @@
+#Write a python program to demonstrate operator precedence and associativity
 # Operator Precedence
 result1 = 10 + 5 * 2
 print("10 + 5 * 2 =", result1)
