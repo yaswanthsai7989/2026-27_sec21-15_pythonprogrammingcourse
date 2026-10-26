@@ -1,3 +1,4 @@
+#Write a python program to perform arithmetic operations (+, -, *, /, //, %, **) on two numbers
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
