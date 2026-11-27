@@ -1,6 +1,12 @@
-#Write a python program to print a number right-angled triangle pattern
-rows = int(input("Enter the number of rows: "))
-for i in range(1, rows + 1):
-    for j in range(1, i + 1):
-        print(j, end=' ')
-    print()  # Move to the next line after each row
+4. Python Code
+n = int(input("Enter number of rows in upper half: "))
+for i in range(n):
+ if i == 0:
+ print(" " * (n - 1) + "*")
+ else:
+ print(" " * (n - i - 1) + "*" + " " * (2 * i - 1) + "*")
+for i in range(n - 2, -1, -1):
+ if i == 0:
+ print(" " * (n - 1) + "*")
+ else:
+ print(" " * (n - i - 1) + "*" + " " * (2 * i - 1) + "*")
